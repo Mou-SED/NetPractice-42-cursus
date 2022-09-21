@@ -4,6 +4,8 @@
 
 <div align="center">
 NetPractice is a general practical exercise to let you discover networking specifically on Subnetting.
+<br/>
+Use Dark theme to read this Readme Please
 </div>
 
 ## What is  an IP address
@@ -80,8 +82,39 @@ The principal factor in solving the subnetting problem is the subnet mask, which
 
 ```
 IP Address: 66.94.29.13     BP => 01000110.01011110.00011101.00001101
+                                  -------- -------- -------- --------
+                                  | Octet | Octet  | Octet  | Octet |
+
 Subnet Mask: 255.255.255.0  BP => 11111111.11111111.11111111.00000000
                                   -------------------------- --------
                                           Network part         Host
 ```
+The network part is unchangeable in our IP address, the host part is the information that gives us the number of hosts (devices/IP address) that can be in the current network/subnet.
+
+We count the number of zeros in the Mask and we calculate 2 ^ NumberOfZeros = NumberOfHosts (2 ^ 8 = 256), so in our example we can use 256/subnet from 66.94.29.0 to 66.94.29.255.
+
+```
+The IP: 66.94.29.0 is reserved for the network ID
+... All IP addresses in this range it's available to use in our Network/subnet
+The IP: 66.94.29.255 is reserved for the Broadcast IP
+```
+
+## Subnetting
+
+After all that we have discussed in the last sections, we can see that Subnetting is when we have a bigger network and we decide to divide it into separate smaller networks, the subnet mask allows us to know more quickly the range of IP addresses that we can use in these subnets.
+
+<div align="center">
+  <img src="doc/practice.gif">
+</div>
+
+## Acknowledgements
+
+ - [Networking Animated Videos Playlist](https://www.youtube.com/watch?v=Mad4kQ5835Y&list=PL7zRJGi6nMRzg0LdsR7F3olyLGoBcIvvg&ab_channel=PowerCertAnimatedVideos)
+ - [Subnetting Mastery Playlist](https://www.youtube.com/watch?v=BWZ-MHIhqjM&list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE&ab_channel=PracticalNetworking)
+ - [Networking Fundamentals Playlist](https://www.youtube.com/watch?v=bj-Yfakjllc&list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi&ab_channel=PracticalNetworking)
+ - [IP Addressing and Subnetting - Zero to Hero](https://www.udemy.com/course/ip-addressing-zero-to-hero/learn/lecture/13583788#overview)
+ - [Guid to NetPractice](https://githubhelp.com/lpaube/NetPractice#tcp-transport-layer?ref=https://githubhelp.com)
+
+
+
 
