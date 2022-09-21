@@ -48,7 +48,7 @@ Before starting the problem to be solved in the project (Subnetting), we start w
 ## TCP: Transport Layer
 
 <div align="center">
-<img width=150 hiegth=200 src="doc/tcp.png">
+<img width=200 hiegth=200 src="doc/tcp.png">
 </div>
 
 TCP is the abbreviation for Transmission Control Protocol. It is a communication standard that allows application programs and devices to exchange messages over a network. It is used to send packets over the Internet.
