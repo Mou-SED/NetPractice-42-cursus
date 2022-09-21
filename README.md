@@ -7,7 +7,7 @@ NetPractice is a general practical exercise to let you discover networking speci
 </div>
 
 ## What is  an IP address
-An IP address is simply an identifier for each device in a network, it is through it that the device can communicate, there are two different types.
+An IP address is simply an identifier for each device in a network, it is through it that the device can communicate with other devices, there are two different types.
 - IPv4: Example of IPv4 -> 66.94.29.13
   - has a 32-bit address length.
   - It Supports Manual and DHCP address configuration.
@@ -42,3 +42,15 @@ An IP address is simply an identifier for each device in a network, it is throug
   - IPv6 does not support VLSM.
 
 In our NetPractice project, we will use IPv4.
+<hr/>
+Before starting the problem to be solved in the project (Subnetting), we start with the TCP protocol that allowed application programs and devices to exchange messages.
+
+## TCP: Transport Layer
+
+<div align="center">
+<img width=150 hiegth=200 src="doc/tcp.png">
+</div>
+
+TCP is the abbreviation for Transmission Control Protocol. It is a communication standard that allows application programs and devices to exchange messages over a network. It is used to send packets over the Internet.
+
+TCP ensures the integrity of data communicated over a network. Before transmitting data, TCP establishes a connection between a source and its destination, which remains active until the communication begins. It then breaks large amounts of data into smaller packets, while ensuring end-to-end delivery without data loss.
