@@ -57,7 +57,7 @@ TCP ensures the integrity of data communicated over a network. Before transmitti
 
 The IP protocol is part of a suite of Internet protocols, which also includes the Transmission Control Protocol. Together, these two protocols are known as TCP/IP. The Internet protocol suite manages the rules for packetizing, addressing, transmitting, routing and receiving data on networks.
 
-## Public Address vs. Private Address
+## Public Address and Private Address
 
 In the world of IPv4, we will use different types of IP addresses to complete the largest number of device available in the world, the two different types being the public IP address and the private IP address.
 
@@ -72,3 +72,7 @@ When a network is connected to the Internet, it cannot use any of the reserved p
 172.16.0.0 – 172.31.255.255   (1,048,576 IP addresses)
 10.0.0.0 – 10.255.255.255     (16,777,216 IP addresses)
 ```
+
+## Subnet Mask
+
+The principal factor in solving the subnetting problem is the subnet mask, which has the same form as the IP address (---.---.---.---), which is the address used to separate a network address from a host address in the IP address. It defines the range of IP addresses that can be used in a network or subnet.
