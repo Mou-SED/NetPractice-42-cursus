@@ -77,7 +77,6 @@ When a network is connected to the Internet, it cannot use any of the reserved p
 ## Subnet Mask
 
 The principal factor in solving the subnetting problem is the subnet mask, which has the same form as the IP address (---.---.---.---), which is the address used to separate a network address from a host address in the IP address. It defines the range of IP addresses that can be used in a network or subnet.
-<<<<<<< HEAD
 
 ```
 IP Address: 66.94.29.13     BP => 01000110.01011110.00011101.00001101
@@ -85,5 +84,4 @@ Subnet Mask: 255.255.255.0  BP => 11111111.11111111.11111111.00000000
                                   -------------------------- --------
                                           Network part         Host
 ```
-=======
->>>>>>> dbeabc90e8e50a0ad1da8efecdd1546db88c6a88
+
