@@ -54,3 +54,21 @@ Before starting the problem to be solved in the project (Subnetting), we start w
 TCP is the abbreviation for Transmission Control Protocol. It is a communication standard that allows application programs and devices to exchange messages over a network. It is used to send packets over the Internet.
 
 TCP ensures the integrity of data communicated over a network. Before transmitting data, TCP establishes a connection between a source and its destination, which remains active until the communication begins. It then breaks large amounts of data into smaller packets, while ensuring end-to-end delivery without data loss.
+
+The IP protocol is part of a suite of Internet protocols, which also includes the Transmission Control Protocol. Together, these two protocols are known as TCP/IP. The Internet protocol suite manages the rules for packetizing, addressing, transmitting, routing and receiving data on networks.
+
+## Public Address vs. Private Address
+
+In the world of IPv4, we will use different types of IP addresses to complete the largest number of device available in the world, the two different types being the public IP address and the private IP address.
+
+A public IP address is an IP address that can be accessed directly through the Internet and is assigned to your network router by your Internet Service Provider (ISP). A public (or external) IP address helps you connect to the Internet from inside your network, to outside your network.
+
+A private IP address is the address your network router assigns to your device. Each device on the same network is assigned a unique private IP address (sometimes called a private network address) - this is how devices on the same internal network talk to each other.
+
+When a network is connected to the Internet, it cannot use any of the reserved private IP addresses. The following ranges are reserved for private IP addresses:
+
+```
+192.168.0.0 – 192.168.255.255 (65,536 IP addresses)
+172.16.0.0 – 172.31.255.255   (1,048,576 IP addresses)
+10.0.0.0 – 10.255.255.255     (16,777,216 IP addresses)
+```
