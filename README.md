@@ -5,6 +5,7 @@
 <div align="center">
 NetPractice is a general practical exercise to let you discover networking specifically on Subnetting.
 </div>
+
 ## What is  an IP address
 An IP address is simply an identifier for each device in a network, it is through it that the device can communicate, there are two different types.
 - IPv4: Example of IPv4 -> 66.94.29.13
